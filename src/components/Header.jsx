@@ -18,7 +18,7 @@ export default function Header(props) {
                         <option value="solana">Solana (SOL)</option>
                         <option value="tether">Tether (USDT)</option>
                     </select>
-
+                    <h2 className="fs-1 fw-bold text-capitalize text-black">{props.name}</h2>
                     <a className="navbar-brand d-flex ml-auto display-2 text-dark fs-2 fw-bold text-uppercase "
                         style={{ fontFamily: 'NHaasGroteskDSPro-65Md'}} href="/">Crypto 
                         Dashboard</a>
